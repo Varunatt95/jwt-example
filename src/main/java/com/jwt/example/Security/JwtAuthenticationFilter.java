@@ -37,7 +37,7 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
 //        } catch (InterruptedException e) {
 //            throw new RuntimeException(e);
 //        }
-        //Authorization
+        //Authorization =  Bearer wghsoafhosg
 
         String requestHeader = request.getHeader("Authorization");
         //Bearer 2352345235sdfrsfgsdfsdf
